@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf4b0389-9dff-4d64-b379-fa6b83ea57e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Environment\apache-maven-3.6.1\maven_repo" />
+        <option name="mavenHome" value="E:/Environment/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\Environment\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1z1WFYusQ8Ld6Ts9acahGYvrSwp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf4b0389-9dff-4d64-b379-fa6b83ea57e5" name="Default Changelist" comment="" />
+      <created>1633315973833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633315973833</updated>
+      <workItem from="1633315981051" duration="181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1001" y="-275" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1633316125922">
+      <screen x="-1080" y="-833" width="1080" height="1880" />
+    </state>
+    <state x="-1001" y="-275" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/-1080.-833.1080.1880@-1080.-833.1080.1880" timestamp="1633316125922" />
+    <state x="-810" y="-195" key="FileChooserDialogImpl" timestamp="1633316105951">
+      <screen x="-1080" y="-833" width="1080" height="1880" />
+    </state>
+    <state x="-810" y="-195" key="FileChooserDialogImpl/0.0.1536.824/-1080.-833.1080.1880@-1080.-833.1080.1880" timestamp="1633316105951" />
+    <state x="-1080" y="-335" key="SettingsEditor" timestamp="1633316110996">
+      <screen x="-1080" y="-833" width="1080" height="1880" />
+    </state>
+    <state x="-1080" y="-335" key="SettingsEditor/0.0.1536.824/-1080.-833.1080.1880@-1080.-833.1080.1880" timestamp="1633316110996" />
+  </component>
+</project>

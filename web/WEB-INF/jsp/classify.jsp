@@ -63,10 +63,31 @@
 </div>
 
 
-<%--中心导航--%>
+<%--中心分类--%>
 <div id="content" style="margin-right: 100px;margin-top: 40px;">
-    <button class="btn btn-success btn-default" type="submit">执行</button>
+    <button class="btn btn-success btn-default" onclick="classify()">执行</button>
+    <div>
+        <ul>分类正确率：</ul>
+        <ul id="result"></ul>
+    </div>
 </div>
+
+
+<script>
+    function classify() {
+        $.post(
+        {
+            url:"${pageContext.request.contextPath}/Classify/classify",
+            success:function (data) {
+                console.log(data['OA']);
+            }
+        }
+        )
+    }
+
+
+
+</script>
 
 
 </body>

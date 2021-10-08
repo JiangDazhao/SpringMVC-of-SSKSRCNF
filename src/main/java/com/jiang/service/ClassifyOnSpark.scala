@@ -17,7 +17,7 @@ class ClassifyOnSpark {
     val spark=new SparkContext(conf)
 
     // initialize header info
-    val header= new HSIhdr("SSKSRCNF", "./resources/")
+    val header= new HSIhdr("SSKSRCNF", "C:/Users/27801/Desktop/Inschool Project/SpringMVC of SSKSRCNF/web/data/")
     val bands=header.getBands
     val row=header.getRow
     val col =header.getCol
@@ -74,11 +74,11 @@ class ClassifyOnSpark {
 
     //small part of test
     // initialize img,img_gt,train,test,total info
-    val alldata = new Data("Indian_pines_corrected.mat",
-      "trainidx_54_61.mat",
-      "testidx_45_61.mat",
-      "Indian_gt.mat",
-      "totalsample_99_61.mat")
+    val alldata = new Data("data/Indian_pines_corrected.mat",
+      "data/trainidx_54_61.mat",
+      "data/testidx_45_61.mat",
+      "data/Indian_gt.mat",
+      "data/totalsample_99_61.mat")
     val broadimg2D: Broadcast[Array[Array[Double]]] =spark.broadcast((alldata.getImg2D))
     //initialize totallength
     val totallength=alldata.getTotallab.length
@@ -180,9 +180,9 @@ class ClassifyOnSpark {
     //OA
     val OA = Tools.classeval(pred, testlab)
     System.out.println("Overall Accuracy:%.2f%%".format(OA))
-    System.out.println("End time:" + df.format(new Date)
+    System.out.println("End time:" + df.format(new Date))
 
-  }
+    }
 
   def process():Unit={
     getClassifyOnSpark

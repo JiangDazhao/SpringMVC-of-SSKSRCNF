@@ -13,12 +13,6 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/lib/matrix/matrix-style.css"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/lib/font-awesome/font-awesome.css"/>
 
-    <!-- 实现左边动画 -->
-    <script type="text/javascript" src="${pageContext.request.contextPath}/lib/jquery/jquery.min.js"></script>
-
-    <script src="${pageContext.request.contextPath}/lib/matrix/matrix.js"></script>
-
-    <script type="text/javascript" src="${pageContext.request.contextPath}/lib/bootstrap/bootstrap3.3.7.js"></script>
 </head>
 <body>
 
@@ -63,26 +57,30 @@
 </div>
 
 
-<%--&lt;%&ndash;中心导航&ndash;%&gt;--%>
-<%--<div id="content" style="margin-right: 100px;margin-top: 40px;">--%>
-<%--    <div class="container-fluid">--%>
-<%--        <div class="quick-actions_homepage">--%>
-<%--            <ul class="quick-actions">--%>
-<%--                <li class="bg_lo" style="margin-left: 100px">--%>
-<%--                    <a href="${pageContext.request.contextPath}/Index/upload">--%>
-<%--                        <i class="icon-group"></i>高光谱图像入库--%>
-<%--                    </a>--%>
-<%--                </li>--%>
-<%--                <li class="bg_lb" style="margin-left: 100px">--%>
-<%--                    <a href="${pageContext.request.contextPath}/Index/classify">--%>
-<%--                        <i class="icon-signal"></i>高光谱图像并行分类--%>
-<%--                    </a>--%>
-<%--                </li>--%>
-<%--            </ul>--%>
-<%--        </div>--%>
-<%--    </div>--%>
-<%--</div>--%>
+<%--中心上传--%>
+    <div class="container kv-main">
+        <div class="page-header">
+            <h1>高光谱图像上传</h1>
+        </div>
+        <form enctype="multipart/form-data">
+            <input id="file-fr" type="file" multiple>
+        </form>
+        <hr>
+        <br>
+    </div>
 
+<!-- 实现左边动画 -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/lib/jquery/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/lib/matrix/matrix.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/lib/bootstrap/bootstrap3.3.7.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/lib/fileinput/fileinput.min.js"></script>
+
+<script>
+    $('#file-fr').fileinput({
+        language: 'fr',
+        uploadUrl: '#',
+    });
+</script>
 
 </body>
 </html>

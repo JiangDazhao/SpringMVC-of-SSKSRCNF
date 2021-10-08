@@ -21,7 +21,7 @@ object SSKSRCNFmain {
   def main(args: Array[String]): Unit = {
     val exetype= args(0)
     val jobname=args(1)   //jobname and the filename
-    val filepath=args(2)  //the hadoop directory of all the data
+    val filepath=args(2)  //the hadoop directory of all the data hdfs://
 
     val  conf= new SparkConf().setMaster(exetype).setAppName(jobname).set("spark.testing.memory", "2147480000")
     val spark= new SparkContext(conf)

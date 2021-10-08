@@ -25,6 +25,16 @@ public class ByteData {
     private short []testlab;
     private short [] totallab;
 
+    /**
+     *
+     * @param mainfilename SSKSRCNF
+     * @param filepath  hdfs://
+     * @param bands
+     * @param rows
+     * @param cols
+     * @param datatype
+     * @throws IOException
+     */
     public ByteData(String mainfilename, String filepath, int bands, int rows, int cols, short datatype) throws IOException {
 
         this.mainfilename = mainfilename;
